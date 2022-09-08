@@ -1,0 +1,537 @@
+
+@import url('grid.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content-500{width: 100%;max-width: 500px;margin: 0 auto;}
+.content-600{width: 100%;max-width: 600px;margin: 0 auto;}
+.content-800{width: 100%;max-width: 800px;margin: 0 auto;}
+.content-1000{width: 100%;max-width: 1000px;margin: 0 auto;}
+.content-1200{width: 100%;max-width: 1200px;margin: 0 auto;}
+.content-1400{width: 100%;max-width: 1400px;margin: 0 auto;}
+
+
+.border{
+  border-radius: 16px;
+}
+
+.t-left{
+  text-align: left;
+  align-items: center;
+}
+
+.t-center{
+  text-align: center;
+}
+
+.t-right{
+  text-align: right;
+}
+
+.grey-background{
+  background-color: #edeff5;
+}
+
+body{
+    background-color: #020a17;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+h4{
+    color: white;
+}
+
+h5{
+    color: white;
+}
+
+h6{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+/* --------  mobile --------- */
+
+/* Header */
+
+header{
+    margin-bottom: 20px;
+}
+.header-complete{
+    margin: 30px 30px 0 30px;
+}
+
+
+.menu-name span{
+    color: white;
+    font-size: 2em;
+    font-weight: 300;
+    display: none;
+}
+
+#menu-button{
+    width: 100%;
+    max-width: 40px;
+    z-index: 101;
+    position: absolute;
+    display: block;
+    right: 0;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 20px;
+
+}
+
+/* ----------- Burger Menu -------------- */
+
+.burger-menu{
+    background-color: #020a17;
+    padding: 130px 0 200px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+    display: none;
+}
+
+.burger-menu ul a{
+    text-decoration: none;
+}
+
+.burger-menu ul li{
+    color: white;
+    list-style: none;
+    font-size: 2em;
+    font-weight: 700;
+    padding-bottom: 12px;
+}
+
+.burger-menu-socials{
+    margin-top: 20px;
+}
+.burger-menu-socials ul li img{
+    width: 100%;
+    max-width: 10vw;
+}
+
+.burger-menu-socials ul li{
+    display: inline;
+}
+
+.burger-menu-legal ul li{
+    font-size:0.9em;
+    font-weight: 300;
+}
+
+/* ---------- Main ------------ */
+
+main{
+    margin: 110px 30px 30px;
+}
+.main-txt h2{
+    font-size: 2.8em;
+    font-weight: 900;
+}
+
+.main-txt h1{
+    font-size: 1.0em;
+    font-weight: 300;
+    padding-top: 10px;
+
+}
+
+.main-txt h3{
+    font-size: 1.3em;
+    font-weight: 500;
+    padding-top: 34px;
+}
+
+.main-txt h3 a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.main-txt a:hover{
+    color: orange;
+}
+
+
+.main-txt-line{
+    margin-top: 8px;
+}
+
+.main-txt ul{
+    margin-top: 18px;
+}
+
+.main-txt ul li{
+    text-decoration: none;
+    display: inline;
+
+}
+
+.main-txt ul li img{
+    width: 40px;
+    padding-right: 12px;
+}
+
+
+
+/* ---------- About me ----------- */
+
+#aboutme .knowledge{
+        margin-top: 90px;
+    }
+
+#aboutme .knowledge h3{
+    font-size: 2em;
+    font-weight: 700;
+    padding-bottom: 16px;
+    color: orange;
+}
+
+#aboutme .knowledge p{
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+#aboutme .software{
+    margin-top: 30px;
+}
+
+#aboutme .software h3{
+    font-size: 1.6em;
+}
+
+#aboutme .frontend{
+    margin-top: 30px;
+}
+
+#aboutme .frontend h3{
+    font-size: 1.6em;
+}
+
+#aboutme .backend{
+    margin-top: 30px;
+}
+
+#aboutme .backend h3{
+    font-size: 1.6em;
+}
+
+#aboutme .knowledge img{
+    width: 100%;
+    max-width: 56px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#aboutme .experience{
+    margin-top: 40px;
+}
+
+#aboutme .experience-box-wrapper{
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+
+#aboutme .experience-box{
+    margin-bottom: 60px;
+}
+
+
+#aboutme .company-icon-flex{
+    background-color: white;
+    border-radius: 180px;
+    padding: 2px;
+    width: 100px;
+
+}
+
+#aboutme .company-icon-flex img{
+    width: 100%;
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+#aboutme .experience h3{
+    font-size: 2em;
+    font-weight: 700;
+    padding-bottom: 16px;
+    color: orange;
+}
+
+#aboutme .experience-headline h6{
+    color: white;
+    font-weight: 600;
+    font-size: 1.4em;
+    padding: 20px 10px 0 14px;
+}
+
+#aboutme .experience-box h3{
+    color: white;
+    font-weight: 600;
+    font-size: 1.4em;
+    padding-left: 14px;
+    padding-right: 10px;
+}
+
+#aboutme .experience-time{
+    border-radius: 5px;
+    background-color: orange;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 12px 0 12px 15px;
+    display: inline-block;
+}
+
+#aboutme .experience-time h6{
+    font-size: 0.9em;
+    font-weight: 400;
+    text-align: center;
+}
+
+#aboutme .experience-content h6, .experience-content h4{
+    padding-left: 14px;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: lightgrey;
+    padding-bottom: 8px;
+}
+
+
+#aboutme .experience-content h4{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+#aboutme .experience-content p{
+    padding-left: 14px;
+    padding-top: 20px;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+}
+
+#aboutme .education h3{
+    font-size: 2em;
+    font-weight: 700;
+    padding-bottom: 6px;
+    color: orange;
+}
+
+/* Contact */
+
+#contact .main-txt h5{
+    font-size: 1.1em;
+    font-weight: 300;
+    padding-top: 40px;
+}
+
+#contact .main-txt h6{
+    font-size: 1.0em;
+    font-weight: 300;
+}
+
+#contact .footer-socials ul li{
+    padding-left: 0;
+}
+
+
+/* Footer */
+footer{
+    background-color: #10161e;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+footer nav ul{
+    margin-bottom: 26px;
+}
+
+footer nav ul li{
+    display: inline;
+    padding: 0 12px;
+    color : white;
+    text-decoration: none;
+}
+
+.footer-socials{
+    margin-bottom: 18px;
+}
+
+.footer-socials ul li{
+    display: inline;
+    padding: 0 12px;
+    color : white;
+    text-decoration: none;
+
+}
+
+footer nav a{
+    text-decoration: none;
+}
+
+.footer-socials ul li img{
+    width: 100%;
+    max-width: 30px;
+}
+
+.legal h6{
+    font-size:0.9em;
+    font-weight: 200;
+}
+
+
+
+
+
+/* Desktop */
+
+@media (min-width: 992px){
+
+    .burger-menu{
+        padding-top: 180px;
+        padding-left: 180px;
+    }
+
+    #start{
+        margin: 180px 30px 30px 140px;
+    }
+
+    .main-txt h2{
+        font-size: 3.6em;
+    }
+
+    .main-txt h6{
+        font-size: 1.1em;
+    }
+
+    .main-txt h3{
+        font-size: 1.4em;
+    }
+
+    .main-txt-line{
+        width: 70px;
+    }
+
+    .main-txt ul li img{
+        max-width: 36px;
+    }
+
+    /* About me */
+
+    #knowledge-headline h3{
+        margin-left: 220px;
+    }
+
+    #aboutme .knowledge p{
+        margin-left: 220px;
+        font-size: 1em;
+    }
+
+    #aboutme .software{
+        margin-left: 220px;
+    }
+
+    #aboutme .frontend{
+        margin-left: 220px;
+    }
+
+    #aboutme .backend{
+        margin-left: 220px;
+    }
+
+    #aboutme .experience {
+        margin-left: 220px;
+    }
+
+    #aboutme .experience-box-wrapper{
+        display: flex;
+        gap: 30px;
+        justify-content: flex-start;
+    }
+
+    #aboutme .company-icon-flex{
+        flex: 1;
+    }
+
+    #aboutme .experience-box{
+        flex: 3;
+    }
+
+    #aboutme .experience-content p{
+        font-size: 1em;
+    }
+
+    /* Contact */
+
+    #contact .main-txt h5{
+        font-size: 1.3em;
+
+    }
+
+    #contact .main-txt h6{
+        font-size: 1.3em;
+    }
+
+    /* ---------- Project Details ----------- */
+
+   /* #projectdetails{
+        text-align: center;
+    }
+    #projectdetails .main-txt h1{
+        font-size: 1.1em;
+    }
+
+    #projectdetails .main-txt p{
+        font-size: 1em;
+    }
+
+    #projectdetails .step h3{
+        font-size: 1.6em;
+    }
+
+    #projectdetails .step p{
+        font-size: 1em;
+    }
+
+    #projectdetails .step-a4 img{
+        max-width: 300px;
+        margin-left: 50px;
+    }
+
+    #projectdetails .step-1{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    #img-space{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+*/
+}

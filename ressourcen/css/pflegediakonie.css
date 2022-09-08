@@ -1,0 +1,221 @@
+/* ======================================================
+                       Helper
+========================================================= */
+
+.orange{
+    color: rgba(255, 165, 0, 1);
+}
+
+.button-orange {
+    margin: 6px 4px 40px 4px;
+    border-radius: 5px;
+    border-color: rgba(255, 165, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    padding: 6px 18px;
+    display: inline-block;
+    background-color: rgba(255, 165, 0, 1);
+}
+
+.button-orange a {
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: black;
+}
+
+.button-wrapper{
+    display: flex;
+    gap: 0;
+    margin: 0 10px;
+}
+
+@media (min-width: 992px) {
+    .button-orange a, .button-second a {
+        font-size: 0.8em;
+    }
+
+    .button-orange{
+        margin-top: 6px;
+        margin-bottom:10px;
+    }
+
+    .button-wrapper{
+        gap: 16px;
+    }
+}
+
+/* ======================================================
+                       Mobile
+========================================================= */
+
+main{
+    margin: 0;
+}
+
+.title{
+    margin: 90px 20px 0;
+}
+
+.title h3{
+    font-size: 2.2em;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+
+}
+
+.title h4{
+    font-size: 1em;
+    font-weight: 300;
+    padding-top: 8px;
+    text-align: center;
+    color: white;
+}
+
+.project-part-long{
+    padding: 60px 0 0;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.project-part-long-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-part-long h3{
+    font-size: 1.4em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.project-part-long p{
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+    padding: 18px 20px 20px;
+}
+
+.project-bg{
+    background-color: #10161e;
+}
+
+.project-taks{
+    margin-top: 10px;
+    margin-bottom: 20px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-taks img{
+    width: 100%;
+    max-width: 40px;
+}
+
+.project-part-long-wrapper picture img, .project-part-long-wrapper-reverse picture img{
+    width: 100%;
+    max-width: 340px;
+    margin: 20px 20px 0;
+}
+
+
+.project-part-mid-wrapper picture img{
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.project-part-mid-wrapper{
+    text-align: center;
+}
+
+.project-part-mid-txt{
+    flex: 1;
+}
+
+/* ======================================================
+                       Desktop
+========================================================= */
+
+@media (min-width: 992px) {
+    .project-part-long-wrapper, .project-part-long-wrapper-reverse {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 20px;
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
+    .project-part-long-wrapper-reverse{
+        flex-direction: row-reverse;
+    }
+
+    .project-part-long{
+        background-color: unset;
+        text-align: left;
+    }
+
+    .project-part-long-txt, .project-part-mid-txt{
+        background-color: #10161e;
+        border-radius: 20px;
+        padding: 30px 20px 20px 60px;
+    }
+
+    .project-part-long-txt{
+        flex: 2;
+
+    }
+
+    .project-taks{
+        justify-content: flex-start;
+    }
+
+    .project-part-long-txt h3, .project-part-mid-txt h3{
+        text-align: left;
+        font-size: 1.2em;
+    }
+
+    .project-part-long-txt p, .project-part-mid-txt p{
+        text-align: left;
+        font-size: 1em;
+        padding: 18px 20px 20px 0;
+    }
+
+    .project-part-long-wrapper picture, .project-part-long-wrapper-reverse picture {
+        flex: 2;
+    }
+
+    .project-part-long-wrapper picture img, .project-part-long-wrapper-reverse picture img{
+        max-width: 470px;
+    }
+
+    .project-part-mid-wrapper{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 40px;
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
+    .project-part-mid-wrapper picture img{
+        width: 100%;
+        max-width: 250px;
+        padding: 0;
+    }
+
+    .project-part-mid-txt{
+        flex: 1;
+    }
+}

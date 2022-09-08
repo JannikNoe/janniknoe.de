@@ -1,0 +1,264 @@
+/*===============================================================
+                          Mobile
+===============================================================*/
+
+.hero-banner-wrapper{
+
+}
+
+.hero-banner-bg{
+    /*background-attachment: fixed;*/
+    background-repeat: no-repeat; background-size: cover;
+    background-image: url(../../ressourcen/img/img/pexels-antoni-shkraba-7163354.jpg);
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(70%);
+}
+
+.hero-banner-wrapper h3{
+    padding: 200px 0 290px;
+    font-size: 36px;
+    font-weight: 800;
+    z-index: 2;
+}
+
+.benefits-wrapper{
+    margin: 40px;
+}
+
+.benefit-box{
+    display: block;
+}
+
+.benefit-box img{
+    width: 100%;
+    max-width: 70px;
+}
+
+.benefit-box-content h6{
+    font-size: 1.4em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 0 8px;
+}
+
+.benefit-box-content p{
+    font-size: 1.2em;
+    font-weight: 300;
+    padding: 10px 0 8px;
+    font-family: var(--second-font);
+}
+
+/*. join-now-img picture img{
+    width: 100%;
+    filter: brightness(82%);
+} */
+
+.join-now-content{
+    background-color: var(--second-bg-color);
+    padding: 100px 30px;
+    margin-top: -4px; /* WIESO ABSTAND? ERFRAGEN*/
+}
+
+.join-now-content h3{
+    font-size: 1.4em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.join-now-content p{
+    font-size: 1.2em;
+    font-weight: 300;
+    padding: 10px 0 8px;
+    font-family: var(--second-font);
+    margin-bottom: 20px;
+}
+
+.join-now--bgimg-1{
+    background-image: url(../../ressourcen/img/img/pexels-fauxels-3183197.jpg);
+    background-position: center;
+    background-repeat: no-repeat; background-size: cover;
+    height: 100%;
+    filter: brightness(82%);
+}
+
+.join-now--bgimg-2{
+    background-image: url(../../ressourcen/img/img/pexels-cowomen-2041627.jpeg);
+    background-position: center;
+    background-repeat: no-repeat; background-size: cover;
+    height: 100%;
+    filter: brightness(82%);
+}
+
+.join-now--bgimg-3{
+    background-image: url(../../ressourcen/img/img/pexels-canva-studio-3194524.jpg);
+    background-position: center;
+    background-repeat: no-repeat; background-size: cover;
+    height: 100%;
+    filter: brightness(82%);
+}
+
+.feedback{
+    background: var(--third-bg-color);
+    padding: 80px 30px;
+}
+
+.feedback-content{
+    margin-bottom: 30px;
+}
+
+.feedback-content h6{
+    font-size: 1.3em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 34px;
+}
+
+.feedback-content p{
+    font-size: 1.2em;
+    font-weight: 300;
+    font-family: var(--second-font);
+    padding-bottom: 24px;
+    line-height: 1.3;
+}
+
+.feedback-content span{
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: var(--second-font);
+}
+
+.feedback-nav ul{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.feedback-nav ul li{
+    display: inline;
+}
+
+.feedback-nav img{
+    width: 100%;
+    max-width: 12px;
+}
+
+
+
+
+/*===============================================================
+                          Desktop
+===============================================================*/
+
+@media (min-width: 992px) {
+    .hero-banner-wrapper{
+
+    }
+
+    .hero-banner-bg{
+        background-image: url(../../ressourcen/img/img/pexels-antoni-shkraba-7163354_desktop.jpg);
+    }
+
+    .hero-banner-wrapper h3{
+        padding: 240px 0;
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+    .benefits{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .benefits-wrapper{
+        width: 250px;
+        margin: 50px 40px;
+    }
+
+    .benefit-box{
+        display: flex;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .benefit-box img{
+        max-width: 50px;
+    }
+
+    .benefit-box-content h6{
+        font-size: 1.3em;
+    }
+
+    .benefit-box-content p{
+        font-size: 1em;
+    }
+
+    .join-now--bgimg-1{
+        background-image: url(../../ressourcen/img/img/pexels-fauxels-3183197-desktop.jpg);
+
+    }
+
+    .join-now--bgimg-2{
+        background-image: url(../../ressourcen/img/img/pexels-cowomen-2041627-desktop.jpg);
+    }
+
+    .join-now--bgimg-3{
+        background-image: url(../../ressourcen/img/img/pexels-canva-studio-3194524-desktop.jpg);
+    }
+
+    .join-now-content{
+        margin-top: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .join-now-content h3{
+        font-size: 1.3em;
+    }
+
+    .join-now-content p{
+        font-size: 1.0em;
+    }
+
+    .feedback{
+        padding: 120px 200px;
+    }
+
+    .feedback-content p{
+        font-size: 1em;
+    }
+
+    .feedback-content span{
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .benefits-wrapper {
+        width: 315px;
+    }
+
+    .join-now-content{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .benefits-wrapper {
+        width: 385px;
+    }
+
+    .join-now-content{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}

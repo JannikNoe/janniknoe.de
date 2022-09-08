@@ -1,0 +1,167 @@
+/* ======================================================
+                       HELPER
+========================================================= */
+
+.button-orange{
+    margin-top: 28px;
+    border-radius: 5px;
+    border-color: rgba(255, 165, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    padding: 6px 18px;
+    display: inline-block;
+    background-color: rgba(255, 165, 0, 1);
+}
+
+.button-orange a {
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: black;
+}
+
+.button-second{
+    margin-top: 28px;
+    border-radius: 5px;
+    border-color: rgba(255, 165, 0, 1);
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    padding: 6px 18px;
+    display: inline-block;
+}
+
+.button-second a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+@media (min-width: 992px) {
+    .button-orange a, .button-second a{
+        font-size: 0.8em;
+    }
+}
+/* ======================================================
+                       Mobile
+========================================================= */
+
+.project{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 90px;
+}
+
+.project-wrapper {
+
+}
+
+.project-img{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-img img{
+    width: 100%;
+    max-width: 300px;
+}
+
+.project-txt h2{
+    font-weight: 700;
+    font-size: 2.2em;
+    color: orange;
+}
+
+.project-txt h3{
+    font-weight: 300;
+    font-size: 0.9em;
+    padding-top: 6px;
+}
+
+.project-txt p{
+    font-size: 1.2em;
+    font-weight: 300;
+    padding-top: 24px;
+    line-height: 1.3;
+
+}
+
+.project-taks{
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project-taks img{
+    width: 100%;
+    max-width: 40px;
+}
+
+.button-wrapper{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.notice p {
+    font-size: 0.7em;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+/* ======================================================
+                       Desktop
+========================================================= */
+
+
+@media (min-width: 992px){
+
+    .project-list{
+        margin: 0 auto;
+        max-width: 1200px;
+        padding-top: 30px;
+        }
+
+    .project-wrapper{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .project-img{
+        flex: 1;
+    }
+
+    .project-img img{
+        max-width: 600px;
+    }
+
+    .project-txt{
+        flex: 3;
+    }
+
+    .project-txt h2 {
+        font-size: 2em;
+    }
+
+    .project-txt h3 {
+        font-size: 0.8em;
+    }
+    .project-txt p {
+        font-size: 1em;
+        line-height: 1.4;
+    }
+
+    .notice p{
+        font-size: 0.7em;
+        padding-top: 14px;
+    }
+
+}
+
