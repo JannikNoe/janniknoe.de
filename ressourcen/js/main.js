@@ -1,10 +1,10 @@
 function menu (){
     let navmenu = document.getElementById('navmenu');
 
-    if (navmenu.style.display =='none'){
-        navmenu.style.display = 'block';
-    }else{
+    if (navmenu.style.display === 'block'){
         navmenu.style.display = 'none';
+    }else{
+        navmenu.style.display = 'block';
     }
     console.log(navmenu);
 
